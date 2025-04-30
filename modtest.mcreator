@@ -1,0 +1,68 @@
+{
+  "mod_elements": [
+    {
+      "name": "MobTest01",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_test_01",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/modtest/models/item/mob_test_01_spawn_egg.json",
+          "src/main/java/net/mcreator/modtest/client/renderer/MobTest01Renderer.java",
+          "src/main/java/net/mcreator/modtest/entity/MobTest01Entity.java",
+          "src/main/resources/data/modtest/neoforge/biome_modifier/mob_test_01_biome_modifier.json"
+        ]
+      },
+      "path": "~/LivingEntities/Mobs"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.modtest.mob_test_01": "Rock Lee",
+      "item.modtest.mob_test_01_spawn_egg": "Rock Lee Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "LivingEntities",
+        "children": [
+          {
+            "name": "Creatures",
+            "children": []
+          },
+          {
+            "name": "Bosses",
+            "children": []
+          },
+          {
+            "name": "Mobs",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "modtest",
+    "modName": "ModTest",
+    "version": "1.0.0",
+    "author": "birbi, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.modtest"
+  },
+  "mcreatorVersion": 202400452410
+}
